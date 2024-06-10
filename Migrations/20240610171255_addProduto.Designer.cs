@@ -3,11 +3,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using PeDeOutro.Data;
+using PeDeOuro.Data;
 
 #nullable disable
 
-namespace PeDeOutro.Migrations
+namespace PeDeOuro.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20240610171255_addProduto")]
@@ -19,7 +19,7 @@ namespace PeDeOutro.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.0");
 
-            modelBuilder.Entity("PeDeOutro.Models.Cliente", b =>
+            modelBuilder.Entity("PeDeOuro.Models.Cliente", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -42,7 +42,7 @@ namespace PeDeOutro.Migrations
                     b.ToTable("Cliente");
                 });
 
-            modelBuilder.Entity("PeDeOutro.Models.Produto", b =>
+            modelBuilder.Entity("PeDeOuro.Models.Produto", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

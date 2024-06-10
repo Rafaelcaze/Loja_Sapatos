@@ -3,11 +3,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using PeDeOutro.Data;
+using PeDeOuro.Data;
 
 #nullable disable
 
-namespace PeDeOutro.Migrations
+namespace PeDeOuro.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20240610174826_addPedido")]
@@ -19,7 +19,7 @@ namespace PeDeOutro.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.0");
 
-            modelBuilder.Entity("PeDeOutro.Models.Cliente", b =>
+            modelBuilder.Entity("PeDeOuro.Models.Cliente", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -42,7 +42,7 @@ namespace PeDeOutro.Migrations
                     b.ToTable("Cliente");
                 });
 
-            modelBuilder.Entity("PeDeOutro.Models.ItensPedido", b =>
+            modelBuilder.Entity("PeDeOuro.Models.ItensPedido", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -63,7 +63,7 @@ namespace PeDeOutro.Migrations
                     b.ToTable("ItensPedido");
                 });
 
-            modelBuilder.Entity("PeDeOutro.Models.Pedido", b =>
+            modelBuilder.Entity("PeDeOuro.Models.Pedido", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -82,7 +82,7 @@ namespace PeDeOutro.Migrations
                     b.ToTable("Pedido");
                 });
 
-            modelBuilder.Entity("PeDeOutro.Models.Produto", b =>
+            modelBuilder.Entity("PeDeOuro.Models.Produto", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -99,15 +99,15 @@ namespace PeDeOutro.Migrations
                     b.ToTable("Produto");
                 });
 
-            modelBuilder.Entity("PeDeOutro.Models.ItensPedido", b =>
+            modelBuilder.Entity("PeDeOuro.Models.ItensPedido", b =>
                 {
-                    b.HasOne("PeDeOutro.Models.Pedido", "Pedido")
+                    b.HasOne("PeDeOuro.Models.Pedido", "Pedido")
                         .WithMany("ItensPedido")
                         .HasForeignKey("PedidoId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("PeDeOutro.Models.Produto", "Produto")
+                    b.HasOne("PeDeOuro.Models.Produto", "Produto")
                         .WithMany()
                         .HasForeignKey("ProdutoId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -118,9 +118,9 @@ namespace PeDeOutro.Migrations
                     b.Navigation("Produto");
                 });
 
-            modelBuilder.Entity("PeDeOutro.Models.Pedido", b =>
+            modelBuilder.Entity("PeDeOuro.Models.Pedido", b =>
                 {
-                    b.HasOne("PeDeOutro.Models.Cliente", "Cliente")
+                    b.HasOne("PeDeOuro.Models.Cliente", "Cliente")
                         .WithMany()
                         .HasForeignKey("ClienteId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -129,7 +129,7 @@ namespace PeDeOutro.Migrations
                     b.Navigation("Cliente");
                 });
 
-            modelBuilder.Entity("PeDeOutro.Models.Pedido", b =>
+            modelBuilder.Entity("PeDeOuro.Models.Pedido", b =>
                 {
                     b.Navigation("ItensPedido");
                 });

@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace PeDeOutro.Models;
+namespace PeDeOuro.Models;
 
 public class Cliente
 {

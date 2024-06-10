@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using PeDeOutro.Data;
+using PeDeOuro.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

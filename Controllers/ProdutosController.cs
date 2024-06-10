@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using PeDeOutro.Data;
-using PeDeOutro.Models;
+using PeDeOuro.Data;
+using PeDeOuro.Models;
 
-namespace PeDeOutro.Controllers
+namespace PeDeOuro.Controllers
 {
     public class ProdutosController : Controller
     {

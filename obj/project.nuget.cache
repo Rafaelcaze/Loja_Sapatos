@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A+wN1jRVs7sj4j3PItW1mdTuVptSbTg6m2JkiYFSEkPahfrGAKRI1rZzvI3Xk/pdCME0mTAOmn74YpOkCg4Byg==",
+  "dgSpecHash": "y7tC3/O6Mcr2Wwhd4nycvptmKk7fxD//8HwRRdgoM3zln9MvG5rbCqd5AQ7O5Nm6C0sLf/VQck1gx7d1iKrekg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\luanm\\OneDrive\\Documentos\\univem\\5-semestre\\arquitetura_de_software\\projetoFinal\\PeDeOutro\\PeDeOutro.csproj",
+  "projectFilePath": "C:\\Users\\luanm\\OneDrive\\Documentos\\univem\\5-semestre\\arquitetura_de_software\\projetoFinal\\PeDeOuro\\PeDeOuro.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luanm\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\luanm\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

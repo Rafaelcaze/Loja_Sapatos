@@ -15,101 +15,101 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = PeDeOutro
-build_property.RootNamespace = PeDeOutro
-build_property.ProjectDir = C:\Users\luanm\OneDrive\Documentos\univem\5-semestre\arquitetura_de_software\projetoFinal\PeDeOutro\
+build_property.RootNamespace = PeDeOuro
+build_property.RootNamespace = PeDeOuro
+build_property.ProjectDir = C:\Users\luanm\OneDrive\Documentos\univem\5-semestre\arquitetura_de_software\projetoFinal\PeDeOuro\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\luanm\OneDrive\Documentos\univem\5-semestre\arquitetura_de_software\projetoFinal\PeDeOutro
+build_property.MSBuildProjectDirectory = C:\Users\luanm\OneDrive\Documentos\univem\5-semestre\arquitetura_de_software\projetoFinal\PeDeOuro
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOutro/Views/Clientes/Create.cshtml]
+[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOuro/Views/Clientes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOutro/Views/Clientes/Delete.cshtml]
+[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOuro/Views/Clientes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOutro/Views/Clientes/Details.cshtml]
+[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOuro/Views/Clientes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOutro/Views/Clientes/Edit.cshtml]
+[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOuro/Views/Clientes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOutro/Views/Clientes/Index.cshtml]
+[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOuro/Views/Clientes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOutro/Views/Home/Index.cshtml]
+[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOuro/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOutro/Views/Home/Privacy.cshtml]
+[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOuro/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOutro/Views/Pedidos/Create.cshtml]
+[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOuro/Views/Pedidos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOutro/Views/Pedidos/Delete.cshtml]
+[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOuro/Views/Pedidos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOutro/Views/Pedidos/Details.cshtml]
+[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOuro/Views/Pedidos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOutro/Views/Pedidos/Edit.cshtml]
+[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOuro/Views/Pedidos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOutro/Views/Pedidos/Index.cshtml]
+[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOuro/Views/Pedidos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOutro/Views/Produtos/Create.cshtml]
+[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOuro/Views/Produtos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOutro/Views/Produtos/Delete.cshtml]
+[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOuro/Views/Produtos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOutro/Views/Produtos/Details.cshtml]
+[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOuro/Views/Produtos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOutro/Views/Produtos/Edit.cshtml]
+[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOuro/Views/Produtos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOutro/Views/Produtos/Index.cshtml]
+[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOuro/Views/Produtos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOutro/Views/Shared/Error.cshtml]
+[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOuro/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOutro/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOuro/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOutro/Views/_ViewImports.cshtml]
+[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOuro/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOutro/Views/_ViewStart.cshtml]
+[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOuro/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOutro/Views/Shared/_Layout.cshtml]
+[C:/Users/luanm/OneDrive/Documentos/univem/5-semestre/arquitetura_de_software/projetoFinal/PeDeOuro/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-5q7fpebu9x

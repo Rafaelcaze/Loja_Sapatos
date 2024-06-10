@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using PeDeOutro.Models;
+using PeDeOuro.Models;
 
-namespace PeDeOutro.Controllers;
+namespace PeDeOuro.Controllers;
 
 public class HomeController : Controller
 {

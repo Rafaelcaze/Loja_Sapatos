@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace PeDeOutro.Migrations
+namespace PeDeOuro.Migrations
 {
     /// <inheritdoc />
     public partial class removerDataCadastro : Migration

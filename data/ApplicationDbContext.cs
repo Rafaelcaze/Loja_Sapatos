@@ -1,9 +1,9 @@
 
 
 using Microsoft.EntityFrameworkCore;
-using PeDeOutro.Models;
+using PeDeOuro.Models;
 
-namespace PeDeOutro.Data
+namespace PeDeOuro.Data
 {
     public class ApplicationDbContext : DbContext
     {

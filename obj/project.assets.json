@@ -8016,11 +8016,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\luanm\\OneDrive\\Documentos\\univem\\5-semestre\\arquitetura_de_software\\projetoFinal\\PeDeOutro\\PeDeOutro.csproj",
-      "projectName": "PeDeOutro",
-      "projectPath": "C:\\Users\\luanm\\OneDrive\\Documentos\\univem\\5-semestre\\arquitetura_de_software\\projetoFinal\\PeDeOutro\\PeDeOutro.csproj",
+      "projectUniqueName": "C:\\Users\\luanm\\OneDrive\\Documentos\\univem\\5-semestre\\arquitetura_de_software\\projetoFinal\\PeDeOuro\\PeDeOuro.csproj",
+      "projectName": "PeDeOuro",
+      "projectPath": "C:\\Users\\luanm\\OneDrive\\Documentos\\univem\\5-semestre\\arquitetura_de_software\\projetoFinal\\PeDeOuro\\PeDeOuro.csproj",
       "packagesPath": "C:\\Users\\luanm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luanm\\OneDrive\\Documentos\\univem\\5-semestre\\arquitetura_de_software\\projetoFinal\\PeDeOutro\\obj\\",
+      "outputPath": "C:\\Users\\luanm\\OneDrive\\Documentos\\univem\\5-semestre\\arquitetura_de_software\\projetoFinal\\PeDeOuro\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\luanm\\AppData\\Roaming\\NuGet\\NuGet.Config"
