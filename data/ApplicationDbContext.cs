@@ -14,5 +14,6 @@ namespace PeDeOutro.Data
 
         // Defina suas DbSet aqui. Por exemplo:
         public DbSet<Cliente> Cliente { get; set; }
+        public DbSet<Produto> Produto { get; set; }
     }
 }
