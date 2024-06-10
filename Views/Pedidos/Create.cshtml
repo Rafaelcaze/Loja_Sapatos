@@ -1,0 +1,71 @@
+@model PeDeOutro.Models.Pedido
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Pedido</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group p-2">
+                <label asp-for="Cliente" class="control-label"></label>
+                <select asp-for="ClienteId" class="form-control" asp-items="ViewBag.ClienteId"></select>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Itens do Pedido</label>
+                <div id="produtoCheckBoxes">
+                    @foreach (var produto in ViewBag.ProdutoId)
+                    {
+                        <div class="form-check">
+                            <input class="form-check-input produtoCheckbox" type="checkbox" id="produto_@produto.Id" name="ItensPedido" value="@produto.Id">
+                            <label class="form-check-label" for="produto_@produto.Id">
+                                @produto.Nome - R$ @produto.Preco
+                            </label>
+                        </div>
+                    }
+                </div>
+            </div>
+            <div class="form-group p-2">
+                <label asp-for="Total" class="control-label"></label>
+                <input asp-for="Total" class="form-control" type="number" readonly />
+                <span asp-validation-for="Total" class="text-danger"></span>
+            </div>
+            <div class="form-group p-2">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <script>
+        $(document).ready(function () {
+            function calcularTotal() {
+                var total = 0;
+                $('.form-check-input:checked').each(function () {
+                    let precoString = $(this).closest('.form-check').find('.form-check-label').text().trim(); 
+                    precoString = precoString.split('R$')[1].trim();
+                    let preco = parseFloat(precoString);
+                    total += preco;
+                });
+                $('#Total').val(total.toFixed(2));
+            }
+
+            // Adiciona um evento de clique aos checkboxes
+            $('.form-check-input').click(function () {
+                calcularTotal();
+            });
+        });
+    </script>
+}
