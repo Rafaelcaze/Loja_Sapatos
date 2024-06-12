@@ -1,22 +1,22 @@
-@model IEnumerable<PeDeOuro.Models.Promocao>
+@model IEnumerable<PeDeOuro.Models.Emails>
 
 @{
     ViewData["Title"] = "Index";
 }
 
-<h1>Promoção</h1>
+<h1>Emails</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Enviar Promoção</a>
 </p>
-<table class="table">
+@* <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Assunto)
+                @Html.DisplayNameFor(model => model.Promocao)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Descricao)
+                @Html.DisplayNameFor(model => model.emailDestinatario)
             </th>
             <th></th>
         </tr>
@@ -25,10 +25,10 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Assunto)
+                @Html.DisplayFor(modelItem => item.Promocao.Assunto)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Descricao)
+                @Html.DisplayFor(modelItem => item.emailDestinatario)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
@@ -38,4 +38,4 @@
         </tr>
 }
     </tbody>
-</table>
+</table> *@

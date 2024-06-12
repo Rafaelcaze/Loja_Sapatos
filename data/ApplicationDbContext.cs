@@ -18,5 +18,6 @@ namespace PeDeOuro.Data
         public DbSet<Pedido> Pedido { get; set; }
         public DbSet<ItensPedido> ItensPedido { get; set; }
         public DbSet<PeDeOuro.Models.Promocao> Promocao { get; set; } = default!;
+        public DbSet<PeDeOuro.Models.Emails> Emails { get; set; } = default!;
     }
 }

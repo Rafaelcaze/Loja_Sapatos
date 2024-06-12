@@ -12,14 +12,12 @@ namespace PeDeOuro.Controllers
 {
     public class PromocaoController : Controller
     {
-        private readonly ApplicationDbContext _context;
 
-         private readonly HttpClient _httpClient;
+        private readonly HttpClient _httpClient;
         private readonly string _emailSerciceUrl;
 
-        public PromocaoController(ApplicationDbContext context, HttpClient httpClient, IConfiguration configuration)
+        public PromocaoController(HttpClient httpClient, IConfiguration configuration)
         {
-            _context = context;
             _httpClient = httpClient;
             _emailSerciceUrl = configuration["VariablesEmailService:host"] + ":" + configuration["VariablesEmailService:port"];
         }
@@ -198,9 +196,9 @@ namespace PeDeOuro.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        private bool PromocaoExists(int id)
-        {
-            return _context.Promocao.Any(e => e.Id == id);
-        }
+        // private bool PromocaoExists(int id)
+        // {
+        //     return _context.Promocao.Any(e => e.Id == id);
+        // }
     }
 }
