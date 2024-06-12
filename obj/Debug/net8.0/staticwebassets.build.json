@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RtUdIWaC5Cxya3StyJLUhWP5CYS4WgzEueBYKXCTPuc=",
+  "Hash": "QAV1pcP22BcrbiOh6NSc6gOMGZIlGlnPZDyOlWSuqFQ=",
   "Source": "PeDeOuro",
   "BasePath": "_content/PeDeOuro",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\luanm\\OneDrive\\Documentos\\univem\\5-semestre\\arquitetura_de_software\\projetoFinal\\PeDeOuro\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PeDeOuro.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\luanm\\OneDrive\\Documentos\\univem\\5-semestre\\arquitetura_de_software\\projetoFinal\\PeDeOuro\\wwwroot\\assets\\logoPeDeOuro.jpeg",
+      "SourceId": "PeDeOuro",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\luanm\\OneDrive\\Documentos\\univem\\5-semestre\\arquitetura_de_software\\projetoFinal\\PeDeOuro\\wwwroot\\",
+      "BasePath": "_content/PeDeOuro",
+      "RelativePath": "assets/logoPeDeOuro.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\logoPeDeOuro.jpeg"
     },
     {
       "Identity": "C:\\Users\\luanm\\OneDrive\\Documentos\\univem\\5-semestre\\arquitetura_de_software\\projetoFinal\\PeDeOuro\\wwwroot\\css\\site.css",

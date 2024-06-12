@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\PeDeOuro.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\luanm\\OneDrive\\Documentos\\univem\\5-semestre\\arquitetura_de_software\\projetoFinal\\PeDeOuro\\wwwroot\\assets\\logoPeDeOuro.jpeg",
+      "PackagePath": "staticwebassets\\assets\\logoPeDeOuro.jpeg"
+    },
+    {
       "Id": "C:\\Users\\luanm\\OneDrive\\Documentos\\univem\\5-semestre\\arquitetura_de_software\\projetoFinal\\PeDeOuro\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PeDeOuro")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39a2abdc6f5a592cf9a6a91ef659ae52630f0beb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+099bb4a20d26cf7c6202ff9be8ea7d577108de34")]
 [assembly: System.Reflection.AssemblyProductAttribute("PeDeOuro")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PeDeOuro")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
